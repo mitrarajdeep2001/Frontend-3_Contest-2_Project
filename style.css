@@ -1,0 +1,104 @@
+/* Normalise CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CSS for Main-Container */
+.main-container{
+    width: 100%;
+    height: 100vh;
+    background-color: #000000;
+}
+/* CSS for Heading 1 */
+.main-container h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+/* CSS for Latitude and Longitude Container */
+.main-container .lat-long{
+    display: flex;
+    gap: 700px;
+}
+/* CSS for Sub-Containers */
+.main-container .sub-container-1, .main-container .sub-container-2{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 1.2rem;
+}
+/* CSS for Sub-Container 1 */
+.main-container .sub-container-1{
+    border: 2px solid black;
+}
+/* CSS for Sub-Container 2 */
+.main-container .sub-container-2{
+    border: 2px solid #ffffff;
+    display: none;
+}
+/* CSS for Container 1 */
+.container-1{
+    width: 90%;
+    margin: auto;
+}
+/* CSS for Container 2 */
+.container-2{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 90%;
+    margin: auto;
+}
+/* CSS for Container 2 h2 */
+.container-2 h2{
+    margin-bottom: 10px;
+}
+/* CSS for Container 2 input */
+.container-2 input{
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 1px solid #ffffff;
+    outline: #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+}
+/* CSS for Container 2 button */
+.container-2 button{
+    width: 150px;
+    padding-block: 7px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: background-color cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
+}
+/* CSS for Container 2 button on hover*/
+.container-2 button:hover{
+    /* transform: scale(1.1); */
+    background-color: #e9e3e3;
+}
+/* CSS for display result message */
+#result-msg{
+    display: none;
+}
+/* CSS for Error Message */
+.container-2 .error-msg{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: red;
+    display: none;
+}
+/* CSS for White Container */
+.main-container .white-container{
+    background-color: #ffffff;
+    padding-block: 30px;
+}
+/* CSS for Black Container */
+.main-container .black-container{
+    background-color: #000000;
+    padding-block: 50px;
+}
