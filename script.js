@@ -73,7 +73,7 @@ async function fetchTimeZoneByAddress(address) {
           <p>Postcode: ${data.results[0].postcode}</p>
           <p>City: ${data.results[0].city}</p>`;
       document.getElementById("result-msg").style.display = "block";
-      subContainer2.style.display = "block";
+      subContainer2.style.display = "flex";
     } catch (error) {
       console.log(error);
       document.querySelector(".sub-container-2").style.display = "none";
